@@ -1,17 +1,14 @@
-import entities.Item;
-import services.ItemServices;
+import entities.*;
+import services.*;
 
 public class MainApp {
     public static void main(String[] args) {
-        ItemServices s = new ItemServices();
-        System.out.println(s.findById(1).getName());
-
-//        Item water = new Item(8,"Water",0);
-//        s.update(water);
-//        System.out.println(s.findById(8).getName());
-
-        Item newItem = new Item("Brownie",2);
-        s.create(newItem);
+        ItemServices is = new ItemServices();
+        WitchServices ws = new WitchServices();
+        ShopServices ss = new ShopServices();
+        System.out.println(is.findById(Item.class, 1).getName());
+        System.out.println(ws.findById(Witch.class, 1).getName());
+        System.out.println(ss.findById(Shop.class, 1).getName());
 
 
     }

@@ -1,4 +1,5 @@
 package services;
+import entities.Witch;
 
-public class WitchServices {
+public class WitchServices extends Services<Witch>{
 }

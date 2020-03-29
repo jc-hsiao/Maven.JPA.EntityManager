@@ -22,7 +22,7 @@ CREATE TABLE `local`.`witch` (
   
   
   
-INSERT INTO `local`.`shop`(`id`,`name`,`type`)VALUES(1,"Sweet Houst","Bakery");
+INSERT INTO `local`.`shop`(`id`,`name`,`type`)VALUES(1,"Sweet House","Bakery");
 INSERT INTO `local`.`shop`(`id`,`name`,`type`)VALUES(2,"Dream World","Toy Shop");
 
 INSERT INTO `local`.`witch`(`id`,`name`,`age`,`orbcolor`)
@@ -51,7 +51,6 @@ INSERT INTO `local`.`item`(`id`,`name`,`price`)
 VALUES(6,"Fairy Coloring Book",5);
 INSERT INTO `local`.`item`(`id`,`name`,`price`)
 VALUES(7,"Blue Toy Car",8);
-
 INSERT INTO `local`.`item`(`id`,`name`,`price`)
 VALUES(8,"Iced Tea",1);
 
